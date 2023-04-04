@@ -24,12 +24,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Package Extension
-        id: packageExtension
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          pat: stub
-          dryRun: true
+      # - name: Package Extension
+      #   id: packageExtension
+      #   uses: HaaLeo/publish-vscode-extension@v1
+      #   with:
+      #     pat: stub
+      #     dryRun: true
 
       - name: Upload VSIX file to GitHub Releases
         uses: svenstaro/upload-release-action@v2
