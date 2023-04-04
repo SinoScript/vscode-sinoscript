@@ -42,9 +42,4 @@ You can access all of the above commands from the command palette (`Cmd+Shift+P`
 [vs-code]: https://code.visualstudio.com/
 <!-- [market-ext-link]: https://marketplace.visualstudio.com/items?itemName=vlanguage.vscode-sino -->
 
-## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

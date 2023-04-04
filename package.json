@@ -2,7 +2,7 @@
   "name": "sinoscript",
   "displayName": "SinoScript",
   "description": "SinoScript language support (syntax highlighting, formatter, snippets) for Visual Studio Code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "sinoscript",
   "icon": "icons/icon.jpg",
   "license": "MIT",
