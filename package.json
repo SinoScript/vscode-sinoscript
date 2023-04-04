@@ -3,12 +3,29 @@
   "displayName": "SinoScript",
   "description": "SinoScript language support (syntax highlighting, formatter, snippets) for Visual Studio Code.",
   "version": "0.0.1",
+  "publisher": "sinoscript",
+  "icon": "icons/icon.jpg",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.76.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "bugs": {
+		"url": "https://github.com/sinoscript/vscode-sinoscript/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sinoscript/vscode-sinoscript"
+	},
+  "keywords": [
+		"SinoScript",
+		"sinoscript",
+		"sinoscript language",
+		"extension",
+		"autocompletion"
+	],
   "contributes": {
     "languages": [{
       "id": "sinoscript",
