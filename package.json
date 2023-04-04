@@ -1,0 +1,25 @@
+{
+  "name": "sinoscript",
+  "displayName": "SinoScript",
+  "description": "SinoScript language support (syntax highlighting, formatter, snippets) for Visual Studio Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sinoscript",
+      "aliases": ["sinoscript", "sinoscript"],
+      "extensions": [".ss",".sns"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sinoscript",
+      "scopeName": "source.sinoscript",
+      "path": "./syntaxes/sinoscript.tmLanguage.json"
+    }]
+  }
+}
