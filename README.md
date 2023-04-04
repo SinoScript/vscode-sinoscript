@@ -2,60 +2,45 @@
 
 This is the README for your extension "sinoscript". After writing up a brief description, we recommend including the following sections.
 
+<!-- ## Preview
+
+![First demo screenshot](./images/demo.png) -->
+
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Code Editing
 
-For example if there is an image subfolder under your extension project workspace:
+- syntax highlighting
+- code snippets for quick coding
 
-\!\[feature X\]\(images/feature-x.png\)
+## Usage
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+First you will need to install [Visual Studio Code][vs-code] >= `1.76`.
+In the command palette (`Cmd+Shift+P`) select `Install Extensions` and choose `Sino`.
+Alternatively you can install the extension from the [Marketplace][market-ext-link].
+Now open any `.ss`,`.sns`,file in VS Code.
 
-## Requirements
+_Note_: It is recommended to turn `Auto Save` on
+    in Visual Studio Code (`File -> Auto Save`) when using this extension.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Commands
 
-## Extension Settings
+<!-- - `V: Run current file`
+- `V: Format current file`
+- `V: Build an optimized executable from current file`
+- `V: Show V version`
+- `V: Update VLS`
+- `V: Restart VLS` -->
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+You can access all of the above commands from the command palette (`Cmd+Shift+P`).
 
-For example:
+## License
 
-This extension contributes the following settings:
+[MIT](./LICENSE)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<!-- Links -->
+[vs-code]: https://code.visualstudio.com/
+<!-- [market-ext-link]: https://marketplace.visualstudio.com/items?itemName=vlanguage.vscode-sino -->
 
 ## For more information
 
